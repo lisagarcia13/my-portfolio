@@ -5,7 +5,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <div className="projects-container">
-      <h2>My Projects</h2>
+      <h2 className="project-header">My Projects</h2>
       <div className="pocketdex">
         <div>
           <img className="pocketdex-pic" src={name} alt="pokemon" />

@@ -11,11 +11,11 @@ export default function Nav() {
         <NavLink className="link" to="/about">
           About
         </NavLink>
-        <NavLink className="link" to="/contact">
-          Contact
-        </NavLink>
         <NavLink className="link" to="/projects">
           Projects
+        </NavLink>
+        <NavLink className="link" to="/contact">
+          Contact
         </NavLink>
       </div>
     </nav>
