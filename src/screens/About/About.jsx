@@ -2,6 +2,7 @@ import React from "react";
 import css from "../../photos/css3-logo-png-transparent.png";
 import "./About.css";
 import node from "../../photos/nodejs-1-logo.png";
+import html from "../../photos/html.png";
 
 export default function About() {
   return (
@@ -29,11 +30,7 @@ export default function About() {
       </p>
       <h2 className="about-subheader">Technology</h2>
       <div className="tech-container">
-        <img
-          src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png"
-          alt="html"
-          className="about-image"
-        />
+        <img src={html} alt="html" className="about-image" />
         <img src={css} alt="css" className="about-image" />
         <img
           src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640"
