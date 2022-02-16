@@ -1,3 +1,10 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
 .salsa {
   display: grid;
   grid-template-rows: 1fr;
@@ -6,10 +13,12 @@
   border: black;
   border-style: solid;
   border-width: 1px;
+  width: 1200px;
+  height: 320px;
 }
 
 .salsa-pic {
-  width: 280px;
+  width: 320px;
   padding: 10px;
 }
 
@@ -21,10 +30,12 @@
   border: black;
   border-style: solid;
   border-width: 1px;
+  width: 1200px;
+  height: 320px;
 }
 
 .rnlh-pic {
-  width: 280px;
+  width: 320px;
   padding: 10px;
 }
 .link-project {
@@ -39,9 +50,11 @@
   border: black;
   border-style: solid;
   border-width: 1px;
+  width: 1200px;
+  height: 320px;
 }
 .greatreads-pic {
-  width: 280px;
+  width: 330px;
   padding: 10px;
 }
 
@@ -54,17 +67,18 @@
   border-style: solid;
   border-width: 1px;
   margin-top: 20px;
-  padding: 5px;
+  width: 1200px;
+  height: 320px;
 }
 
 .pocketdex-pic {
-  width: 280px;
+  width: 320px;
 }
 
 .project-info {
   display: inline-block;
   line-height: 1.5;
-  width: 50%;
+  width: 70%;
   height: 25%;
   margin: 1%;
 }

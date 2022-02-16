@@ -4,7 +4,8 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="projects-container">
+      <h2>My Projects</h2>
       <div className="pocketdex">
         <div>
           <img className="pocketdex-pic" src={name} alt="pokemon" />
@@ -46,7 +47,7 @@ export default function Projects() {
 
           <p className="project-info">
             An app that is built using React, Airtable, and MUI that allows
-            users to blog and share salsa recipes.Users will be able to see
+            users to blog and share salsa recipes. Users will be able to see
             salsa's in their respective catergories of mild, medium and hot.
           </p>
           <br />
