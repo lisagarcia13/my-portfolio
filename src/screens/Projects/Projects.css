@@ -1,0 +1,70 @@
+.salsa {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.salsa-pic {
+  width: 280px;
+  padding: 10px;
+}
+
+.rnlh {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.rnlh-pic {
+  width: 280px;
+  padding: 10px;
+}
+.link-project {
+  padding: 10px;
+  text-decoration: none;
+}
+.greatreads {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+}
+.greatreads-pic {
+  width: 280px;
+  padding: 10px;
+}
+
+.pocketdex {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.pocketdex-pic {
+  width: 280px;
+}
+
+.project-info {
+  display: inline-block;
+  line-height: 1.5;
+  width: 50%;
+  height: 25%;
+  margin: 1%;
+}
