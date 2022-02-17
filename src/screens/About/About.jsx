@@ -3,10 +3,11 @@ import css from "../../photos/css3-logo-png-transparent.png";
 import "./About.css";
 import node from "../../photos/nodejs-1-logo.png";
 import html from "../../photos/html.png";
+import react from "../../photos/react.png";
 
 export default function About() {
   return (
-    <div>
+    <div className="about-container">
       <h2 className="about-header">Who is Lisa?</h2>
       <img
         src="https://i.pinimg.com/originals/9c/b1/59/9cb159ed669f59d43cf2abc56c33f6a4.gif"
@@ -37,11 +38,7 @@ export default function About() {
           alt="js"
           className="about-image"
         />
-        <img
-          src="http://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png"
-          alt="react"
-          className="about-image"
-        />
+        <img src={react} alt="react" className="about-image" />
         <img
           src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png"
           alt="mongodb"

@@ -5,6 +5,7 @@ import Contact from './screens/Contact/Contact';
 import Projects from './screens/Projects/Projects';
 import Home from './screens/Home/Home';
 import About from './screens/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -30,7 +30,7 @@ export default function Contact() {
             alt="gmail"
             className="icons"
           />
-          <h3 className="contact-text">Email : lisacodes01@gmail.com</h3>
+          <h3 className="contact-text">lisacodes01@gmail.com</h3>
         </div>
       </div>
     </div>
