@@ -8,14 +8,42 @@
   display: flex;
   padding: 50px;
   gap: 80px;
-  margin-left: 15\3px;
+  margin-left: 3px;
 }
 .contact-header {
   font-size: 38px;
+  font-family: "Roboto";
+  color: #343a40;
 }
 .icons {
   height: 200px;
 }
 .contact-text {
   text-decoration: none;
+  font-family: 'Roboto';
+  color: #343a40;
+}
+
+.link-tag {
+  color: #343a40;
+  position: relative;
+}
+
+.link-tag:before{
+  content: "";
+  position: absolute;
+  width: 99%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #7D4F7D;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.link-tag:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+  
 }

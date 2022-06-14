@@ -11,7 +11,7 @@ export default function Contact() {
             alt="github-icon"
             className="icons"
           />
-          <h3>Github</h3>
+          <h3 className="link-tag">Github</h3>
         </a>
         <a
           href="https://www.linkedin.com/in/lisa-marie-garcia/"
@@ -22,7 +22,7 @@ export default function Contact() {
             alt="linkedin-icon"
             className="icons"
           />
-          <h3>LinkedIn</h3>
+          <h3 className="link-tag">LinkedIn</h3>
         </a>
         <div>
           <img

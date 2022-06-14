@@ -4,15 +4,13 @@ import "./About.css";
 import node from "../../photos/nodejs-1-logo.png";
 import html from "../../photos/html.png";
 import react from "../../photos/react.png";
+import lisa from "../../photos/lisa.jpeg";
 
 export default function About() {
   return (
     <div className="about-container">
       <h2 className="about-header">Who is Lisa?</h2>
-      <img
-        src="https://i.pinimg.com/originals/9c/b1/59/9cb159ed669f59d43cf2abc56c33f6a4.gif"
-        alt="cool"
-      />
+      <img src={lisa} alt="lisa" className="profile-pic" />
       <p className="about-text">
         A native Texan, who is mission driven and has a thirst for knowledge.
         Coming from a customer service background, my cheery attitude combined

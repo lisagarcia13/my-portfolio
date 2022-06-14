@@ -8,12 +8,12 @@ export default function Home() {
       <h1 className="home-header">Lisa Garcia</h1>
       <h3 className="home-subheader"> Software Engineer</h3>
       <div>
-        <p>
+        <p className="home-helper">
           Feel free to browse through my work and don't forget to connect with
           me through my contact page.
         </p>
         <img
-          src="https://eportfolio.utm.my/artefact/file/download.php?file=540089&view=116143"
+          src="https://media2.giphy.com/media/IauL6LvGNlT3ffhcqq/giphy.gif"
           alt="welcome"
           className="welcome"
         />

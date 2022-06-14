@@ -1,14 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 .nav {
-  font-family: "VT323";
+  font-family: "Roboto";
   font-size: 44px;
-  padding: 15px;
-  background-color: #90dbf4;
+  padding: 25px;
+  /* background-color: #abc4ff; */
+  background-color: #553555;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 
 .link {
   text-decoration: none;
-  padding: 10px;
-  color: palevioletred;
+  color: #fffffc;
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  font-size: 30px;
+  
+}
+
+
+.link:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+  
 }
