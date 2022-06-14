@@ -15,7 +15,7 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  border: black;
+  border: #7D4F7D;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
@@ -24,7 +24,7 @@
   margin-bottom: 20px;
   background-color: #7D4F7D;
   color: #fffffc;
-  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.18);
 }
 
 .salsa-pic {
@@ -37,14 +37,14 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  border: black;
+  border: #7D4F7D;
   border-style: solid;
   border-width: 1px;
   width: 1200px;
   height: 320px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.18);
   background-color: #7D4F7D;
   color: #fffffc;
 }
@@ -53,27 +53,50 @@
   width: 320px;
   padding: 10px;
 }
-.link-project {
-  padding: 10px;
+.link-project-1 {
+  padding: 7px;
   text-decoration: none;
   font-size: 18px;
   color: #fffffc;
+  background-color: #757bc8;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+
+}
+.link-project-2 {
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fffffc;
+  background-color: #757bc8;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  transition-duration: 0.4s;
+  
+}
+.link-project-1:hover, .link-project-2:hover {
+  background-color: #bebcfc; 
+  color: white;
 }
 .greatreads {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  border: black;
+  border: #7D4F7D;
   border-style: solid;
   border-width: 1px;
   width: 1200px;
-  height: 320px;
-  margin-bottom: 20px;
+  height: 340px;
+  margin-bottom: 30px;
   border-radius: 5px;
-  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.18);
   color: #fffffc;
   background-color: #7D4F7D;
+  
 }
 .greatreads-pic {
   width: 330px;
@@ -85,7 +108,7 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  border: black;
+  border: #7D4F7D;
   border-style:solid;
   border-width: 1px;
   margin-top: 20px;
@@ -93,7 +116,7 @@
   height: 320px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.18);
   background-color: #7D4F7D;
   color: #fffffc;
 }
@@ -107,10 +130,11 @@
   line-height: 1.5;
   width: 70%;
   height: 25%;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-size: 20px;
 }
 
 .project-name {
   font-size: 35px;
 }
+

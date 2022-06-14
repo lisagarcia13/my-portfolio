@@ -20,14 +20,14 @@ export default function Projects() {
           <br />
           <a
             href="https://lisagarcia13.github.io/PocketDex/"
-            className="link-project"
+            className="link-project-1"
           >
             Live Site
           </a>
 
           <a
             href="https://github.com/lisagarcia13/PocketDex"
-            className="link-project"
+            className="link-project-2"
           >
             Github
           </a>
@@ -53,14 +53,14 @@ export default function Projects() {
           <br />
           <a
             href="https://sleepy-gates-e6ddfb.netlify.app/"
-            className="link-project"
+            className="link-project-1"
           >
             Live Site
           </a>
 
           <a
             href="https://github.com/lisagarcia13/whats-in-the-salsa"
-            className="link-project"
+            className="link-project-2"
           >
             Github
           </a>
@@ -84,10 +84,10 @@ export default function Projects() {
             post their listing of items they want to sell.
           </p>
           <br />
-          <a href="https://rnlh.netlify.app" className="link-project">
+          <a href="https://rnlh.netlify.app" className="link-project-1">
             Live Site
           </a>
-          <a href="https://github.com/rodennis/RNLH" className="link-project">
+          <a href="https://github.com/rodennis/RNLH" className="link-project-2">
             Github
           </a>
         </div>
@@ -110,13 +110,14 @@ export default function Projects() {
             once users are logged in.
           </p>
           <br />
-          <a href="https://great-reads.netlify.app/" className="link-project">
+
+          <a href="https://great-reads.netlify.app/" className="link-project-1">
             Live Site
           </a>
 
           <a
             href="https://github.com/lisagarcia13/great-reads"
-            className="link-project"
+            className="link-project-2"
           >
             Github
           </a>
